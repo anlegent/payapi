@@ -1,0 +1,11 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+}
