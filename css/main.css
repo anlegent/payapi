@@ -8,3 +8,33 @@
 .dm-serif-display {
   font-family: "DM Serif Display", serif;
 }
+.burger {
+  border: none;
+  background: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  display: none;
+}
+.demo {
+  display: none;
+}
+@media screen and (min-width: 350px) {
+  .burger {
+    display: none;
+  }
+  .links {
+    display: flex;
+  }
+  .demo {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
