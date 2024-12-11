@@ -1,0 +1,20 @@
+.button-primary-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ba4270;
+  border: none;
+  border-radius: 24px;
+  color: white;
+  padding: 10px;
+}
+
+.button-primary-light:hover {
+}
+
+.button-secondary-light {
+  border-radius: 24px;
+}
+
+.button-secondary-dark {
+}

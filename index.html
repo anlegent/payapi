@@ -6,35 +6,45 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/components/buttons.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
     <header>
       <nav>
         <img class="icon" src="assets/logo.svg" alt="logo" />
-        <a class="links" href="pages/pricing.html">Pricing</a>
-        <a class="links" href="pages/about.html">About</a>
-        <a class="links" href="pages/contact.html">Content</a>
+        <ul>
+          <li><a class="links" href="pages/pricing.html">Pricing</a></li>
+          <li><a class="links" href="pages/about.html">About</a></li>
+          <li><a class="links" href="pages/contact.html">Content</a></li>
+        </ul>
         <!-- mobile only \ -->
         <button class="burger">
           <img class="burger-img" src="assets/burger.svg" alt="menu" />
         </button>
         <!-- mobile only / -->
-        <button class="demo">Schedule a Demo</button>
+        <button class="button-primary-light demo">Schedule a Demo</button>
       </nav>
-      <section>
-        <img src="assets/phone.png" alt="phone illustration" />
-        <h1>Start building with our APIs for absolutely free.</h1>
-        <form>
-          <input type="email" placeholder="Enter email address" />
-          <input class="demo" type="submit" value="Schedule a Demo" />
-          <p>
-            Have any questions?<a class="contact-link" href="pages/contact.html"
-              >Contact Us</a
-            >
-          </p>
-        </form>
-      </section>
     </header>
+    <main>
+      <section class="hero">
+        <img class="phone" src="assets/phone.svg" alt="phone illustration" />
+        <h1 class="title">Start building with our APIs for absolutely free.</h1>
+      </section>
+      <form>
+        <div class="email-demo">
+          <input type="email" placeholder="Enter email address" />
+          <button class="button-primary-light form-demo" type="submit">
+            Schedule a Demo
+          </button>
+        </div>
+        <p>
+          Have any questions?<a class="contact-link" href="pages/contact.html"
+            >Contact Us</a
+          >
+        </p>
+      </form>
+    </main>
   </body>
 </html>
