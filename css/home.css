@@ -38,12 +38,36 @@ h2 {
   font-family: "DM Serif Display", serif;
   font-size: 32px;
   color: #fbfcfe;
+  text-align: center;
 }
 .entreprises-para {
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
   color: #fbfcfe;
   opacity: 70%;
+}
+.solutions {
+  padding: 10%;
+}
+h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 36px;
+  color: #36536b;
+  text-align: center;
+  margin-bottom: 10px;
+}
+p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.solutions-icon {
+  background-color: #36536b;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 9999px;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   h1 {
