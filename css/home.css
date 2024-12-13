@@ -66,10 +66,25 @@ p {
 }
 .solutions-icon {
   background-color: #36536b;
-  width: 100px;
-  height: 100px;
+  width: 106px;
+  height: 106px;
   padding: 5px;
   border-radius: 9999px;
+}
+.solutions-img-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-heading {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  color: #36536b;
+}
+.detail-para {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  color: #6c8294;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   h1 {
