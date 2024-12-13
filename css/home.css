@@ -53,6 +53,17 @@ h2 {
     display: flex;
     flex-direction: row;
   }
+  .entreprises-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  .entreprises {
+    padding: 25%;
+  }
 }
 .phone {
   width: 200px;
@@ -65,5 +76,15 @@ h2 {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .entreprises {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .entreprises-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
