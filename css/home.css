@@ -15,9 +15,35 @@ h1 {
   font-size: 32px;
 }
 
-.logos {
-  background-color: black;
-  margin: 5px;
+.entreprises {
+  background-color: #1b262f;
+  padding: 10%;
+}
+.entreprises-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.entreprises-learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border: 1px #fbfcfe solid;
+  border-radius: 24px;
+  padding: 10px;
+}
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  color: #fbfcfe;
+}
+.entreprises-para {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  color: #fbfcfe;
+  opacity: 70%;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   h1 {
