@@ -48,6 +48,8 @@ h2 {
 }
 .solutions {
   padding: 10%;
+  display: flex;
+  flex-direction: column;
 }
 h3 {
   font-family: "DM Serif Display", serif;
@@ -88,6 +90,20 @@ p {
   .entreprises {
     padding: 25%;
   }
+  .solutions {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h3 {
+    font-size: 48px;
+  }
+  .solutions-img-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .phone {
   width: 200px;
@@ -106,5 +122,13 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  .solutions-details {
+    display: flex;
+    flex-direction: row;
+  }
+  .details-spacing {
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
