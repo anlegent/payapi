@@ -86,6 +86,12 @@ p {
   font-size: 16px;
   color: #6c8294;
 }
+.ready-demo {
+  color: #36536b;
+}
+.phone {
+  width: 200px;
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   h1 {
     font-size: 48px;
@@ -119,9 +125,6 @@ p {
     align-items: center;
     justify-content: center;
   }
-}
-.phone {
-  width: 200px;
 }
 @media screen and (min-width: 1024px) {
   .email-demo {
