@@ -96,6 +96,8 @@ p {
   font-family: "Public Sans", sans-serif;
   font-size: 14px;
   padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(54, 83, 107, 50%);
 }
 .form-demo {
   font-family: "Public Sans", sans-serif;
@@ -116,6 +118,9 @@ form {
   .email-demo {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .entreprises-logos {
     display: grid;
@@ -161,10 +166,17 @@ form {
   .solutions-details {
     display: flex;
     flex-direction: row;
-    padding: 30%;
   }
   .details-spacing {
     margin-left: 60px;
     margin-right: 60px;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
   }
 }
