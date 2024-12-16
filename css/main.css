@@ -109,6 +109,14 @@ a {
   .demo {
     display: flex;
   }
+  footer {
+    padding: 10%;
+    flex-direction: row;
+  }
+  .linkulfoot {
+    flex-direction: row;
+    padding-right: 120px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -140,5 +148,12 @@ a {
     list-style: none;
     padding-right: 40px;
     gap: 150px;
+  }
+  footer {
+    padding: 10%;
+    flex-direction: row;
+  }
+  .linkulfoot {
+    flex-direction: row;
   }
 }
