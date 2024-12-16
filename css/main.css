@@ -8,10 +8,6 @@
 .dm-serif-display {
   font-family: "DM Serif Display", serif;
 }
-ul {
-  padding: 0;
-  margin: 0;
-}
 body {
   padding: 10%;
 }
@@ -54,6 +50,10 @@ h1 {
 }
 footer {
   background-color: #1b262f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .linksfoot {
   color: #fbfcfe;
@@ -67,7 +67,26 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.iconfoot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  font-size: 14px;
+}
+.socialicon {
+  width: 24px;
+  height: 24px;
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .burger {
     display: none;
