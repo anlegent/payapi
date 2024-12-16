@@ -141,6 +141,7 @@ p {
   .solutions-details {
     display: flex;
     flex-direction: row;
+    padding: 30%;
   }
   .details-spacing {
     margin-left: 60px;
