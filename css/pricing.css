@@ -16,3 +16,49 @@
   font-size: 14px;
   padding: 10px;
 }
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  color: #36536b;
+}
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  color: #ba4270;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  color: #6c8294;
+  text-align: center;
+}
+h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  color: #36536b;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  border-top: 10px transparent solid;
+  border-bottom: 10px transparent solid;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check {
+  color: #36536b;
+}
+.unavailable {
+  color: #36536b;
+  opacity: 50%;
+}
