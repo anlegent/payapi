@@ -1,0 +1,18 @@
+.ready-demo {
+  color: #36536b;
+}
+.phone {
+  width: 200px;
+}
+.email {
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(54, 83, 107, 50%);
+}
+.form-demo {
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
