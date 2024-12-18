@@ -62,3 +62,44 @@ li {
   color: #36536b;
   opacity: 50%;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .plan {
+    padding: 10%;
+  }
+  .planlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .planlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  h1 {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  h2 {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  p {
+    text-align: start;
+  }
+  h3 {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  li {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+}
